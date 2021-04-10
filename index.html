@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Animal Sounds Keyboard Drumkit</title>
+</head>
+
+<body>
+  <div class="keySet">
+    <div data-key="65" class="key">
+      <kbd>Key: A</kbd>
+      <span class="sound">Cow</span>
+    </div>
+
+    <div data-key="83" class="key">
+      <kbd>Key: S</kbd>
+      <span class="sound">Pig</span>
+    </div>
+
+    <div data-key="68" class="key">
+      <kbd>Key: D</kbd>
+      <span class="sound">Horse</span>
+    </div>
+  </div>
+
+  <audio data-key="65" src="sounds/clap.wav"></audio>
+  <audio data-key="83" src="sounds/hihat.wav"></audio>
+  <audio data-key="68" src="sounds/kick.wav"></audio>
+  <audio data-key="70" src="sounds/openhat.wav"></audio>
+  <audio data-key="71" src="sounds/boom.wav"></audio>
+  <audio data-key="72" src="sounds/ride.wav"></audio>
+  <audio data-key="74" src="sounds/snare.wav"></audio>
+  <audio data-key="75" src="sounds/tom.wav"></audio>
+  <audio data-key="76" src="sounds/tink.wav"></audio>
+
+  <script src="scripts/sounds.js"></script>
+
+</body>
+
+</html>

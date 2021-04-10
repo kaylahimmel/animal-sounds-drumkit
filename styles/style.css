@@ -1,0 +1,32 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color: navy;
+}
+
+.keySet {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.key {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid navy;
+  transition: all 0.1s ease;
+  padding: 20px;
+  text-align: center;
+}
+
+.playing {
+  transform: scale(1.15);
+  border-color: lightseagreen;
+  box-shadow: 0 0 4px lightseagreen;
+}
+
+.sound {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 2;
+}
